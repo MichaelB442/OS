@@ -1,0 +1,34 @@
+Persistence
+   __Windows Profiles -- POWERSHELL BOOK
+      All Users, All Hosts --$PsHome\Profile.ps1
+      
+      All Users, Current Host -- $PsHome\Microsoft.PowerShell_profile.ps1
+      
+      Current User, All Hosts -- $Home\[My]Documents\Profile.ps1
+      
+      Current User, Current Host -- $Home\[My]Documents\WindowsPowerShell\Profile.ps1
+      
+  
+   __Windows registry -- 
+     Run keys run/runonce-- Service Keys
+
+
+        __Windows Process -- 
+     ports -- sequential 1234 or all same number 4444
+     scheduled tasks -- query the tasks -- find the linked executable
+
+
+   __Linux Boot Process -- 
+     Scheduled tasks(cron) 
+     sysv -- etc/init 
+     systemd -- etc/sbin.init
+     etc/ -- bash, bashrc, profile
+
+
+    __Sysinternals(toolset) -- will have to download
+     Autoruns 
+
+10 Q 3 attempts each ask for help on 3rd try
+LIN/WIN 1 of each vm
+win-RDP
+lin-SSH
