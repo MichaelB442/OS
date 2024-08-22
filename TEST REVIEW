@@ -13,15 +13,28 @@ __Windows Profiles -- POWERSHELL BOOK
       Current User, All Hosts -- $Home\[My]Documents\Profile.ps1
       
       Current User, Current Host -- $Home\[My]Documents\WindowsPowerShell\Profile.ps1
-      
+
+
+ 	
+
+$PsHome\Profile.ps1 | Get-Member -Type NoteProperty
+ 
+$PsHome\Microsoft.PowerShell_profile.ps1 | Get-Member -Type NoteProperty
+ 
+$Home\[My]Documents\Profile.ps1 | Get-Member -Type NoteProperty
+
+$Home\[My ]Documents\WindowsPowerShell\Profile.ps1 | Get-Member -Type NoteProperty
+
+
+
   
    __Windows registry -- 
-     Run keys run/runonce-- Service Keys
+    XXXX Run keys run/runonce-- Service Keys XXXX
 
 
         __Windows Process -- 
-     ports -- sequential 1234 or all same number 4444
-     scheduled tasks -- query the tasks -- find the linked executable
+XXXX     ports -- sequential 1234 or all same number 4444   XXX
+   XXX  scheduled tasks -- query the tasks -- find the linked executable XXX
 
 
    __Linux Boot Process -- 
@@ -39,24 +52,6 @@ __Windows Profiles -- POWERSHELL BOOK
 LIN/WIN 1 of each vm
 win-RDP
 lin-SSH
-
-
-
-S-DeHerrera-Neil/Collaboration_OperatingSystems 
-
-
-
-
-
-
-
-
-
-During test:
-Windows--
-Port:23456
-McAfee.exe
-
 
 
 
